@@ -28,3 +28,21 @@ The models are trained on a real-world dataset of 400K+ credit profiles, saved a
 ---
 
 ## 📦 Project Structure
+EMIPredictAI/
+│
+├── data/
+│ └── emi_prediction_dataset.csv
+│
+├── models/
+│ ├── best_classifier.joblib ← (hosted on Google Drive)
+│ ├── best_regressor.joblib ← (hosted on Google Drive)
+│ ├── encoder.joblib
+│ ├── scaler.joblib
+│ └── label_encoder.joblib
+│
+├── streamlit_app/
+│ └── app.py
+│
+├── train_model.py
+├── requirements.txt
+└── README.md
