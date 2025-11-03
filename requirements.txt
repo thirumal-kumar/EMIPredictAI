@@ -1,4 +1,4 @@
-# Core dependencies
+# --- Core dependencies ---
 streamlit==1.39.0
 pandas==2.2.3
 numpy==2.1.2
@@ -6,9 +6,6 @@ scikit-learn==1.5.2
 joblib==1.4.2
 gdown==5.2.0
 
-# Optional: to ensure Drive and HTTPS downloads work smoothly
+# --- Helpers ---
 requests==2.32.3
-
-# Prevent version conflicts
 typing-extensions>=4.12.2
-
